@@ -95,12 +95,13 @@
     object-fit: cover;
     /* 이미지가 박스에 꽉 차도록 */
     display: block;
-    opacity: 0; /* 정지 시 숨김 */
-    transition: opacity 0.5s ease; /* 부드러운 전환 */
+    opacity: 0;
+    /* 정지 시 숨김 */
+    transition: opacity 0.5s ease;
+    /* 부드러운 전환 */
 }
 
 /* 재생 중일 때만 영상을 보이게 함 */
 .video-wrapper video.is-playing {
     opacity: 1;
 }
-
